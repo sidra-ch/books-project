@@ -3,6 +3,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [searchQuery, setSearchQuery] = useState("best sellers");
@@ -14,6 +15,7 @@ const App = () => {
         <Banner />
         <Hero searchQuery={searchQuery} />
       </div>
+      <Footer />
     </>
   );
 };
