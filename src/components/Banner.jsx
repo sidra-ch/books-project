@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import pic from "./images/img-1.png";
+import pic from "./images/img-1 (2).png";
 import FloatingParticle from "./FloatingParticle";
 
 const Banner = () => {
@@ -57,7 +57,7 @@ const Banner = () => {
                 <img
                   src={pic}
                   alt=""
-                  className="w-full h-full object-contain p-8"
+                  className="w-full h-full object-cover rounded-full p-8"
                 />
               </div>
             </motion.div>
